@@ -1,0 +1,78 @@
+/* Register Page Styles */
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 5rem 2rem;
+  }
+  
+  .card-body p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .form-outline {
+    margin-bottom: 2rem;
+  }
+  
+  .form-label {
+    font-size: 1.2rem;
+    color: #495057;
+  }
+  
+  .form-control-lg {
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  .mask {
+    background: linear-gradient(45deg, #93a5cf, #e4efe9);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .card-body {
+      padding: 3rem 1rem;
+    }
+  
+    .btn-success {
+      padding: 0.75rem 2rem;
+    }
+  }
+  

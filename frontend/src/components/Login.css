@@ -1,0 +1,77 @@
+/* Login Styles */
+p{
+  font-size: 1.4em;
+}
+.mask {
+    background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+  }
+  
+  .container {
+    height: 100%;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 3rem;
+  }
+  
+  .card-body p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+    background-color: #fff;
+    padding: 0 0.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 3rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 576px) {
+    .card-body {
+      padding: 2rem;
+    }
+  }
+  
