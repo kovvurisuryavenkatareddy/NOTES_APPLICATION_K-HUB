@@ -41,15 +41,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 3. Install the dependencies for the backend
 
     ```sh
-    cd backend
-    npm install
+    pip install fastapi pydantic motor jwt fastapi[all] python-dotenv pymongo
     ```
 
 4. Install the dependencies for the frontend
 
     ```sh
     cd ../frontend
-    npm install
+    npm install react-scripts
     ```
 
 ### Running the Application
@@ -57,8 +56,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Start the backend server
 
     ```sh
-    cd backend
-    npm start
+    uvicorn main:app --reload
     ```
 
 2. Start the frontend development server
